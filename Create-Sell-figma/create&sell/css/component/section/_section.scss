@@ -1,0 +1,1506 @@
+
+@import "../../base/global.scss";
+
+
+@media all and (min-width: 1320px) {
+    
+
+    .section-01 {
+
+        height: 574px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        overflow: hidden;
+
+        .container {
+        
+            height: 500px;
+            padding-top: 117px;
+            padding-bottom: 64px;
+            border: 1pz solid orange;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .baslik {
+                font-family: 'Space Grotesk', sans-serif;
+                margin-bottom: 32px;
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 96px;
+                text-align: center;
+                color: #000000;
+                text-shadow: -5px 5px 0px #FFFFFF;
+                width: 856px;
+            }
+
+            p {
+                margin-bottom: 32px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+                width: 760px;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 114px;
+                height: 52px;
+                background: #532C59;
+                border-radius: 15px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+  
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.4;
+            filter: blur(116px);
+        }
+        // .section-01::after {
+        //     content: "";
+        //     position: absolute;
+        //     width: 1440px;
+        //     height: 499px;
+        //     left: 0px;
+        //     top: 57px;
+        //     background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+        //     opacity: 0.4;
+        //     filter: blur(116px);
+        //   }
+        
+
+       
+    }
+        
+    .section-02 {
+   
+        .container {
+            margin: 40px auto 0px;
+            display: flex;
+            justify-content: space-between;
+            gap: 48px;
+            padding: 0px 99.8px;
+
+        }
+    }
+
+    .section-03 {
+
+
+        .container {
+
+            padding: 80px 70px 73px;
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+
+            .c-item-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                .baslik {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 64px;
+                    text-align: center;
+                    color: #000000;
+
+                }
+
+                p {
+
+                    width: 820px;
+                    height: 48px;
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #532C59;
+
+                }
+            }
+
+            .c-item-02 {
+                display: flex;
+                height: 548px;
+                gap: 32px;
+
+                .c-unit {
+                    display: flex;
+                    flex-direction: column;
+                    width: 412px;
+
+                    img {
+                        object-fit: cover;
+                    }
+
+                    ;
+
+
+                    .baslik {
+                        margin-top: 16px;
+                        margin-bottom: 12px;
+                        font-family: 'Syne', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 42px;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-04 {
+        .container {
+            padding: 80px 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .tittle {
+                width: 856px;
+                height: 64px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 32px;
+
+            }
+
+            p {
+
+                width: 760px;
+                height: 48px;
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+                margin-bottom: 80px;
+
+                &:last-child {
+                    width: 269px;
+                    height: 60px;
+                }
+            }
+
+            .c-pp {
+                display: flex;
+                justify-content: space-between;
+
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 12px;
+                    width: 301px;
+                    height: 156px;
+
+                    .img {
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    .name {
+
+                        font-family: 'Space Grotesk', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #000000;
+
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .section-05 {
+        .container {
+
+            height: 944px;
+            padding: 80px 70px 0px;
+            background-image: linear-gradient(  transparent,#FCFAFF);
+            //filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+            .tittle {
+                height: 64px;
+                
+                margin-bottom: 80px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                color: #000000;
+            }
+
+            .box {
+
+                columns: 3;
+
+                img {
+                    margin-bottom: 24px;
+                }
+
+            }
+        }
+
+    }
+
+    .section-06 {
+        .container {
+            padding: 80px 70px 34px;
+            display: flex;
+            height: 632px;
+            gap: 32px;
+
+            .box-01 {
+                width: 412px;
+
+                .tittle {
+                    font-family: 'Syne';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 64px;
+                    margin-bottom: 24px;
+                    color: #000000;
+
+                }
+
+                p {
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #532C59;
+                }
+            }
+
+            .box-02 {
+
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap: 24px;
+
+                .item {
+
+
+                    .unit {
+                        border: 1px solid #D6BCFA;
+                        border-radius: 15px;
+                        width: 412px;
+
+                        .content {
+                            padding: 24px;
+
+                            img {
+                                float: right;
+                            }
+
+                            .title {
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 26px;
+                                color: #000000;
+                                opacity: 0.8;
+
+                            }
+
+                            p {
+                                margin-top: 12px;
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #532C59;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section-07 {
+        .container {
+            padding: 80px 70px 80px 70px;
+           
+            .box {
+                width: 1300px;
+                height: 446px;
+                left: calc(50% - 1300px/2);
+                background: #FCFAFF;
+                border: 1px solid #D6BCFA;
+                box-shadow: inset 0px 0px 50px #F8E0FA;
+                border-radius: 60px;
+                display: flex;
+                justify-content: space-between;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 117px 0px;
+
+
+                    .tittle {
+                        font-family: 'Syne';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 64px;
+                        color: #000000;
+                        height: 64px;
+                        margin-bottom: 16px;
+                    }
+
+                    p {
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+
+                        text-align: center;
+
+                        color: #532C59;
+
+                    }
+
+                    a {
+                        margin-top: 32px;
+                        text-align: center;
+                        color: white;
+                        width: 156px;
+                        height: 52px;
+                        background-color: #532C59;
+                        border-radius: 15px;
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 52px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+    .section-01 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        height: 468px;
+        overflow: hidden;
+
+        .container {
+            
+            padding-top: 64px;
+            padding-bottom: 64px;            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:32px;
+
+
+
+            .baslik {
+                
+                width: 70%;
+                height: 176px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 72px;
+                line-height: 88px;               
+                text-align: center;
+                color: #000000;
+                text-shadow: -5px 5px 0px #FFFFFF;
+            }
+
+            p {
+                width: 80%;
+                font-family: "Space Grotesk";
+                font-style: "normal";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 114px;
+                height: 52px;
+                background: #532C59;
+                border-radius: 15px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.4;
+            filter: blur(116px);
+        }
+    }
+    
+    .section-02 {
+       
+        .container {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            display: grid;
+            row-gap: 24px;
+            column-gap: 24px;
+            grid-template-columns:auto auto auto;
+
+            svg{
+                padding-left: 25px;
+                margin-left: 18%;
+            }
+        }
+    }
+
+    .section-03 {
+
+
+        .container {
+
+            padding-top: 64px ;
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+
+            .c-item-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                .baslik {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 56px;
+                    text-align: center;
+                    color: #000000;
+
+                }
+
+                p {
+
+                    width: 90%;
+                    
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #532C59;
+
+                }
+            }
+
+            .c-item-02 {
+                display: flex;
+                //height: 548px;
+                gap: 24px;
+
+                .c-unit {
+                    display: flex;
+                    flex-direction: column;
+                    width: calc(33.3% - 16px);
+
+                    img {
+                        object-fit: cover;
+                        // width: 240px;
+                        // height: 396px;
+                        
+                        box-shadow: inset 10px -10px 0px rgba(255, 255, 255, 0.5);
+                        border-radius: 30px;
+                    }
+
+                    p{
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #532C59;
+
+                    }
+
+
+                    .baslik {
+                        margin-top: 16px;
+                        margin-bottom: 12px;
+                        font-family: 'Syne', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-04 {
+        .container {
+            padding-top: 64px ;
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .tittle {
+                font-family: "Syne";
+                //width: 770px;
+                //height: 56px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 56px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 24px;
+
+            }
+
+            p {
+
+                width: 505px;
+                height: 72px;
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+                margin-bottom: 64px;
+
+                &:last-child {
+                    width: 269px;
+                    height: 60px;
+                }
+            }
+
+            .c-pp {
+                
+                display: flex;
+                gap:24px;
+                width: 100%;
+                 
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 12px;
+                    width: calc(25% - 18px);;
+                    
+
+                    .img {
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    .name {
+
+                        font-family: 'Space Grotesk', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #000000;
+
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .section-04 {
+        .container {
+            padding-top: 64px ;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .tittle {
+                font-family: "Syne";
+                //width: 770px;
+                height: 56px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 56px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 24px;
+
+            }
+
+            p {
+
+                width: 505px;
+                height: 72px;
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+                margin-bottom: 64px;
+
+                &:last-child {
+                    width: 269px;
+                    height: 60px;
+                }
+            }
+
+            .tablet {
+                
+                display:grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                row-gap: 24px;
+                column-gap: 24px;
+               
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 12px;
+                    width: 301px;
+                    height: 156px;
+                    margin-left: 32px;
+                   
+
+                    .img {
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    .name {
+
+                        font-family: 'Space Grotesk', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #000000;
+
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .section-05 {
+        .container {
+
+            
+            padding-top: 128px ;
+            padding-bottom: 18px;
+            //background-image: linear-gradient(rgb(192, 180, 192), rgb(238, 231, 238));
+            //filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+            .tittle {
+                height: 56px;
+                
+                margin-bottom: 64px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 56px;
+                text-align: center;
+                color: #000000;
+            }
+
+            .box {
+
+                columns: 3;
+
+                img {
+                    width: 240.67px;
+                    height: 176px;
+                    padding: 24px;
+                    margin-left: 12%;
+                   
+                }
+
+            }
+        }
+
+    }
+
+    .section-06 {
+        .container {
+            padding-top: 64px ;
+            display: flex;
+            //height: 1032px;
+            gap: 24px;
+
+            .box-01 {
+                width: calc(50% - 12px);
+
+                .tittle {
+                    font-family: 'Syne';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 56px;
+                    margin-bottom: 24px;
+                    color: #000000;
+
+                }
+
+                p {
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #532C59;
+                    width: 80%;
+                }
+            }
+
+            .box-02 {
+
+                display: flex;
+                flex-direction: column;
+                width: calc(50% - 12px);
+                gap: 24px;
+
+                .item {
+
+
+                    .unit {
+                        border: 1px solid #D6BCFA;
+                        border-radius: 15px;
+                       
+
+                        .content {
+                            padding: 24px;
+
+                            img {
+                                float: right;
+                            }
+
+                            .title {
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 26px;
+                                color: #000000;
+                                opacity: 0.8;
+
+                            }
+
+                            p {
+                                margin-top: 12px;
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #532C59;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section-07 {
+        .container {
+            padding-top: 64px ;
+
+
+            .box {
+                width: 100%;
+                height: 330px;
+                
+                background: #FCFAFF;
+                border: 1px solid #D6BCFA;
+                box-shadow: inset 0px 0px 50px #F8E0FA;
+                border-radius: 60px;
+                display: flex;
+                gap:24px;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content:center;
+                    width: 40%;
+
+                    .tittle {
+                        margin-top:48px;
+                        text-align: center;                        
+                        height: 96px;
+                        font-family: 'Syne';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 48px;
+                        color: #000000;
+                        
+                        margin-bottom: 16px;
+                    }
+
+                    p {
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+
+                        text-align: center;
+
+                        color: #532C59;
+
+                    }
+
+                    a {
+                        margin-top: 24px;
+                        text-align: center;
+                        color: white;
+                        width: 156px;
+                        height: 44px;
+                        background-color: #532C59;
+                        border-radius: 15px;
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 41px;
+                    }
+
+                  
+                }
+                img{
+                    width: 30%;
+                    
+                }
+            }
+        }
+    }
+
+
+
+
+}
+
+
+//mobil
+@media all and (max-width: 767px) {
+    .section-01 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 468px;
+        background-size: cover;
+        overflow: hidden;
+        
+        
+        
+        .container {
+                       
+            padding-top: 48px;            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            .baslik {
+                padding-top: 48px;
+                width: 80%;
+               // height: 168px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 56px;               
+                text-align: center;
+                color: #000000;
+                text-shadow: -5px 5px 0px #FFFFFF;
+            }
+
+            p {
+                margin-top: 16px;
+                margin-bottom: 24px;
+                font-family: "Space Grotesk";
+                font-style: "normal";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #532C59;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 114px;
+                height: 44px;
+                background: #532C59;
+                border-radius: 15px;
+                font-family: "Syne";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+        &::after {
+           
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.4;
+            filter: blur(116px);
+        }
+    }
+
+    .section-02 {
+       
+        .container {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            display: grid;
+            row-gap: 16px;
+            column-gap: 16px;
+            grid-template-columns:auto auto auto;
+
+            svg{
+                width: 85.33px;
+                margin-left: 10%;
+                height: 24px;
+            }
+        }
+    }
+
+    .section-03 {
+
+    
+        .container {
+
+
+            padding-top:48px;
+            padding-bottom: 52px;
+            display: flex;
+            flex-direction: column;
+            
+            .n-mobil{
+                display: none !important;
+            }
+
+           
+
+            .c-item-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+               
+                .baslik {
+                    font-family: 'Syne', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #000000;
+
+                }
+
+                p {
+
+                    width: 80%;
+                    
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #532C59;
+                    margin-bottom: 32px;
+
+
+                }
+            }
+
+           
+            .c-item-02 {
+                display: flex;
+                flex-direction: column;
+                gap:16px;
+
+                               
+                .c-unit {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+
+                    img {
+                        object-fit: cover;
+                        
+                        height: 396px;
+                        box-shadow: inset 10px -10px 0px rgba(255, 255, 255, 0.5);
+                        border-radius: 30px;
+                    }
+
+                    p{
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 90%;
+                       
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: center;
+                        color: #532C59;
+
+                    }
+
+
+                    .baslik {
+                        margin-top: 12px;
+                        margin-bottom: 8px;
+                        font-family: 'Syne', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    //our team
+    .section-04 {
+        .container {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+
+            .tittle {
+                font-family: "Syne";                
+                margin-bottom: 8px;
+                height: 56px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                text-align: center;
+                color: #000000;
+                
+
+            }
+
+            p {
+                width: 85%;
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #532C59;
+                margin-bottom: 48px;
+                
+            }
+
+
+            .team{
+                
+                display:grid;
+                grid-template-columns: auto auto;
+                row-gap: 24px;
+                column-gap: 24px;
+               
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    gap: 12px;
+                    width: auto;
+                    height: 142px;
+                    
+                    .img {
+                        
+                        height: 80px;
+                    }
+
+                    .name {
+
+                        font-family: 'Space Grotesk', sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #000000;
+
+                    }
+                    p{
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #532C59;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    //we provide
+    
+    .section-04 {
+           
+    
+                .c-pp {
+                    
+                    display:flex;
+                    flex-direction: column;
+                    gap: 24px;
+
+                   
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 8px;
+                       
+                       
+                        // .img {
+                        //     width: 80px;
+                        //     height: 80px;
+                        // }
+    
+                        .name {
+    
+                            font-family: 'Space Grotesk', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 26px;
+                            text-align: center;
+                            color: #000000;
+    
+                        }
+                    }
+               
+    
+    }
+    
+    
+    }
+
+    .section-05 {
+        .container {
+          
+            
+            padding-top: 48px;
+            //background-image: linear-gradient(rgb(192, 180, 192), rgb(238, 231, 238));
+            //filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+            .tittle {
+                height: 48px;                
+                margin-bottom: 32px;
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 48px;
+                text-align: center;
+                color: #000000;
+            }
+
+            .box {
+
+                columns: 3;
+                overflow: hidden;
+                img {
+                    width: 240.67px;
+                    height: 176px;
+                    margin-right: 24px;
+                   
+                }
+
+            }
+        }
+
+    }
+
+    .section-06 {
+        .container {
+
+
+            padding-top: 48px;
+            display: flex;
+            flex-direction: column;
+           
+            gap: 16px;
+
+            .box-01 {
+    
+                .tittle {
+                    text-align: center;
+                    font-family: 'Syne';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 48px;
+                    margin-bottom: 24px;
+                    color: #000000;
+
+                }
+
+                p {
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #532C59;
+                    text-align: center;
+                    width: 95%;
+                    
+                }
+            }
+
+            .box-02 {
+
+                display: flex;
+                flex-direction: column;
+                
+                gap: 16px;
+
+                .item {
+
+
+                    .unit {
+                        border: 1px solid #D6BCFA;
+                        border-radius: 15px;
+                        
+
+                        .content {
+                            padding: 16px;
+
+                            img {
+                                float: right;
+                            }
+
+                            .title {
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #000000;
+                                opacity: 0.8;
+
+                            }
+
+                            p {
+                                margin-top: 12px;
+                                font-family: 'Space Grotesk';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #532C59;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section-07 {
+        .container {
+            padding-top:48px;
+            padding-bottom: 48px;
+
+
+            .box {
+               
+                //left: calc(50% - 1300px/2);
+                background: #FCFAFF;
+                border: 1px solid #D6BCFA;
+                box-shadow: inset 0px 0px 50px #F8E0FA;
+                border-radius: 60px;
+                display: flex;
+                gap:24px;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                   
+                    .tittle {
+                        margin-top:24px;
+                        text-align: center;                        
+                        
+                        font-family: 'Syne';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 36px;
+                        line-height: 48px;
+                        color: #000000;
+                        
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-family: 'Space Grotesk';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        width: 85%;
+                        text-align: center;
+
+                        color: #532C59;
+
+                    }
+
+                    a {
+                        margin-top: 16px;
+                        margin-bottom: 24px;
+                        padding: 12px;
+                        text-align: center;
+                        color: white;
+                        width: 50%;
+                        background-color: #532C59;
+                        border-radius: 15px;
+                        text-decoration: none;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                  
+                }
+                img{
+                   display: none;
+                }
+            }
+        }
+    }
+
+
+}

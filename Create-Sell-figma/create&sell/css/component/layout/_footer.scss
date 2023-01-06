@@ -1,0 +1,229 @@
+@import "../../base/global.scss";
+
+@media all and (min-width: 1320px) {
+footer {
+    .container {
+
+
+        height: 261px;
+        padding: 80px 70px 40px;
+
+        .content-tablet{
+            display: none;
+        }
+
+        .content-mobil{
+            display: none;
+        }
+        
+
+
+        .content-desktop {
+
+            .list{
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+                gap: 24px;
+
+                li {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    opacity: 0.5;
+                }
+
+            }
+
+             a {
+                 position: absolute;
+                 margin-left: 565px;
+             }
+
+          
+        }
+
+        hr {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            height: 1px;
+            background-color:rgba($color: #000000, $alpha: 0.5);
+           
+            
+
+        }
+
+            p {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.5;
+
+
+            }
+
+        }
+
+          
+        
+    }
+}
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+    footer {
+        .container {
+
+            
+            padding-top: 64px ;
+            padding-bottom:  32px;
+
+            .content-desktop {
+                display: none;
+
+            }
+
+            .content-mobil{
+                display: none;
+            }
+
+            .content-tablet {
+
+                display: flex;
+                flex-direction: column;
+                
+                .list{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap:40px;
+
+                    a{
+                        width: calc(20% + 20px);
+
+                    }
+
+                    ul {
+                        display: flex;
+                        gap: 18px;
+        
+                        li {
+                            font-family: 'Space Grotesk', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                            opacity: 0.5;
+                        }
+        
+                    }
+
+                }
+
+                
+
+                hr {
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    height: 1px;
+                    background-color: rgba($color: #000000, $alpha: 0.5);
+                }
+    
+                p {
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #000000;
+                    opacity: 0.5;
+    
+    
+                }
+            }
+
+
+
+           
+        }
+    }
+}
+
+@media all and (max-width:767px) {
+
+    footer {
+        .container {
+
+            padding-bottom: 48px;
+
+            .content-desktop {
+                display: none;
+
+            }
+
+            .content-tablet {
+
+                display: none;
+            }
+
+            .content-mobil{
+                img{
+                    margin: auto;
+                }
+
+                hr{
+                    margin-top: 32px;
+                    margin-bottom: 32px;
+                    height: 1px;
+                    background-color: rgba($color: #000000, $alpha: 0.5);
+                }
+
+                .list{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    row-gap: 16px;
+                    text-align: center;
+
+                    a{
+                        font-family: 'Space Grotesk';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;                       
+                            opacity: 0.5;
+                            text-decoration: none;
+                            
+                        }
+                }
+
+                p{
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #000000;
+                    opacity: 0.5;
+    
+                    
+                }
+            }
+
+        }
+    }
+}
